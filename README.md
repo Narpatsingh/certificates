@@ -1,7 +1,6 @@
-# MakeGui
+# Certificate
 
-**MakeGui** is a frontend layer for the commands GUI with the ability to generate multiple records of the same or different command at the same step
-Display the artisan errors and success messages. **jadavsushil/sushil-makegui** on top of Laravel. It has all required controllers, views, routes, and other required assets to run a fully functional commands GUI with complete dashboard out of the box.
+**Certificate** is a frontend layer for generate certificates for the events attendees. **jadavsushil/sushil-certificate** on top of Laravel. It has all required controllers, views, routes, and other required assets to run a fully functional **Certificates** with complete dashboard out of the box.
 
 
 ## Installation and Usage
