@@ -1,0 +1,82 @@
+{
+    "name": "sushil/certificate",
+    "description": "MakeGui** is a frontend layer for the commands GUI with the ability to generate multiple records of the same or different command at the same step, Display the artisan errors and success messages. **jadavsushil/sushil-makegui** on top of Laravel. It has all required controllers, views, routes, and other required assets to run a fully functional commands GUI with complete dashboard out of the box.",
+    "type": "cortex-module",
+    "keywords": [
+        "model",
+        "cortex",
+        "laravel",
+        "eloquent",
+        "certificate",
+        "sluggable",
+        "translatable",
+        "categorizable",
+        "polymorphic",
+        "nested-set",
+        "taxonomy",
+        "rinvex"
+    ],
+    "license": "MIT",
+    "homepage": "https://rinvex.com",
+    "support": {
+        "email": "help@rinvex.com",
+        "issues": "https://github.com/rinvex/cortex-makegui/issues",
+        "source": "https://github.com/rinvex/cortex-makegui",
+        "docs": "https://github.com/rinvex/cortex-makegui/README.md"
+    },
+    "authors": [
+        {
+            "name": "Rinvex LLC",
+            "homepage": "https://rinvex.com",
+            "email": "help@rinvex.com"
+        },
+        {
+            "name": "Abdelrahman Omran",
+            "homepage": "https://omranic.com",
+            "email": "me@omranic.com",
+            "role": "Project Lead"
+        },
+        {
+            "name": "The Generous Laravel Community",
+            "homepage": "https://github.com/rinvex/cortex-makegui/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0",
+        "google/apiclient": "^2.4"
+    },
+    "require-dev": {
+        "codedungeon/phpunit-result-printer": "^0.26.0",
+        "phpunit/phpunit": "^8.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Sushil\\Certificate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sushil\\Certificate\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sushil\\Certificate\\Providers\\MakeguiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
