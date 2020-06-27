@@ -73,7 +73,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sushil\\Certificate\\Providers\\MakeguiServiceProvider"
+                "Sushil\\Certificate\\Providers\\CertificateServiceProvider"
             ]
         }
     },
